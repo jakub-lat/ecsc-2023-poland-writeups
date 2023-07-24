@@ -50,7 +50,7 @@ find / -perm -u=s -type f 2>/dev/null
 
 `/usr/bin/base32` has it! Another cool reference.
 
-Let's retrieve the flag by usign
+Let's retrieve the flag by using
 ```sh
 /bin/base32 flag.b64 | /bin/base32 -d | base64 -d
 ```
